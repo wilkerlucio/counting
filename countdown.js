@@ -13,8 +13,6 @@ $(function() {
   var tdays = thours * 24;
   var counterHolder = $("#counter");
 
-  console.log(tdays);
-
   var endTime = (new Date(2012, 8, 6, 13, 0, 0)).getTime();
 
   setInterval(function() {
