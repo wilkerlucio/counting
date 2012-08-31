@@ -18,7 +18,6 @@ $(function() {
   setInterval(function() {
     var currentTime = (new Date()).getTime();
     var delta = endTime - currentTime;
-    console.log(delta / tdays);
 
     var days = Math.floor(delta / tdays);
     var hours = Math.floor(delta / thours) % 60;
